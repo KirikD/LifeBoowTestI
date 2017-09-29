@@ -8,7 +8,7 @@ public class LoadTexture : MonoBehaviour {
 	void Start () { 		
 		StartCoroutine("LoadImageURL");
 	}
-
+// Start a download of the given URL
 	IEnumerator LoadImageURL() {
 		// Start a download of the given URL
 		WWW www = new WWW(url);
