@@ -1,0 +1,35 @@
+git init MiniAppI
+git remote add origin https://github.com/KirikD/MiniApp.git
+
+
+
+echo "# LifeBoowTestI" >> README.md
+git init
+git commit -m "Тестовая попытка создать гит архив"
+git add -A
+git commit -m "first commit"
+git remote add origin https://github.com/KirikD/LifeBoowTestI.git
+git push -u origin master
+git remote add [AddBranchTest] 
+git push [AddBranchTest] [AddBranc]
+
+
+# === Создать Репозиторий и Добавить весь исходник ===
+echo "# MiniAppIsdfsd" >> README.md # создать текстовый файл, не знаю зачем он
+git init # инцилизировать корневую папку как каталог для загрузки в облако гит
+git commit -m "Тестовая попытка создать гит архив" # можно добавить описание
+git add -A # Добавить все файлы во всех подкаталогах в список на добавление
+git commit -m "first commit" # создать локальный архив файлов на добавление
+git remote add origin https://github.com/KirikD/MiniAppI.git # Добавить Url Облака гит 
+git push -u origin master  # залить все в главный Репозиторий 
+
+# ==== Добавить новую ветку и залить все в нее ====
+git add -A && git commit -m "Your Messages"  # без понятия что это за команда
+git add -u  # Обновить и добавить новые файлы к списку на добавление
+git add -A  # создать список всех файлов во всех папках
+git remote add [AddBranchTest]   # по моему это лишняя команды хз зачем она тут
+git checkout -b branchAA  # создать локальный обзраз файлов для загрузки
+git push -u origin branchAA  # загрузить все изменения в облако гит
+git remote show origin # показать результат работы и ссылку на репризоторий
+
+
